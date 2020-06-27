@@ -6,10 +6,10 @@ function currentLine(line){
   const numberAndNames = []
 
   for (let i = 0, l = line.length; i < l; i++){
-    numbersAndNames.push(`${i+1}. ${line[i]}`)
+    numbersAndNames.push(`${i + 1}. ${line[i]}`)
   }
 
-  return `The line is currently: ${numbersAndNames.join(',')}`
+  return `The line is currently: ${numbersAndNames.join(', ')}`
 };
 
 function nowServing(line){
